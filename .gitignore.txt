@@ -1,0 +1,25 @@
+# Environnement virtuel
+env/
+
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de données
+*.db
+*.sqlite3
+
+# Fichiers de configuration personnels
+config.ini
+
+# Dossiers générés
+data/exports/*
+!data/exports/.gitkeep
+data/backup/*
+!data/backup/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
